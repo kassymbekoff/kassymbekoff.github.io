@@ -45,7 +45,7 @@
  * ===================================================================
  * 02. base style overrides - (_document-setup.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 html {
 	font-size: 10px;
@@ -1386,16 +1386,6 @@ header .logo a {
 }
 .intro-content .button:hover, .intro-content .button:focus {
 	border-color: #cc005f;
-}
-.intro-content .button::after {
-	display: inline-block;
-	content: "\f107";
-	font-family: fontAwesome;
-	font-size: 1.6rem;
-	line-height: inherit;
-	text-align: center;
-	position: relative;
-	left: 1.2rem;
 }
 
 .intro-social {
